@@ -1,0 +1,99 @@
+@charset "UTF-8";
+
+* {
+    font-family: 'Netflix Sans';
+}
+
+@font-face {
+    font-family: 'Netflix Sans';
+    src: url(../fonts/NetflixSans-Regular.otf); 
+    
+}
+
+.main {
+    height: 100vh;
+    background-image: url(../img/main-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 50px 0 50px;
+
+}
+
+.btns__input {
+    margin-right: 15px;
+    padding: 8px 0;
+    background-color: rgba(0, 0, 0, 0);
+    color: #FFF;
+    font-size: 16px;
+    border-radius: 2px;
+}
+
+.btns__input > option {
+    background-color: gray;
+}
+
+.btns__entrar {
+    padding: 10px 15px;
+    background-color: #E50914;
+    color: #FFF;
+    border: none;
+    border-radius: 3px;
+    font-size: 16px;
+}
+
+.main__card {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    width: 700px;
+}
+
+.card__title {
+    color: #FFF;
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.card__title__text {
+    color: #FFF;
+    font-size: 26px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.card__text {
+    color: #FFF;
+    font-size: 19px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.card__inputs {
+    display: flex;
+}
+
+.card__item__email {
+    height: 60px;
+    width: 450px;
+    border: 1px solid #8C8C8C;
+    padding: 10px;
+}
+
+.card__item__submit {
+    width: 180px;
+    font-size: 26px;
+    padding: 10px 25px;
+    background-color: #F40612;
+    color: #FFF;
+    border: none;
+    border-radius: 1px;
+}
