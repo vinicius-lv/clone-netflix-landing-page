@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 1750px) {
+    .main {
+        background-image: url(../img/main-background.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+
+@media screen and (max-width: 950px) {
+
+    .header__logo {
+        width: 100px;
+    }
+
+
+    .main__card-container {
+        padding: 20px;
+    }
+
+    .card__inputs  {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card__item__email {
+        margin-bottom: 10px;
+    }
+
+    .card__item__submit {
+        font-size: 16px;
+        padding: 10px 15px;
+    }
+
+    .tv-card {
+        padding: 20px;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .tv-card__item-text {
+        text-align: center;
+    }
+
+   
+}

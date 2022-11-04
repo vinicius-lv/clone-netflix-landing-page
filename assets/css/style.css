@@ -7,21 +7,32 @@
 @font-face {
     font-family: 'Netflix Sans';
     src: url(../fonts/NetflixSans-Regular.otf); 
-    
+}
+
+body {
+    background-color: #000;
 }
 
 .main {
-    height: 100vh;
-    background-image: url(../img/main-background.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+    margin: 0 auto;
+    height: 800px;
+    max-width: 1700px;
+    background: #000;
+    border-bottom: 10px solid #222222;
 }
 
 .header {
     display: flex;
     justify-content: space-between;
-    padding: 30px 50px 0 50px;
+    padding: 30px 50px 0px 50px;
+}
 
+.header__logo {
+    max-width: 150px;
+}
+
+.header__btns {
+    width: 220px;
 }
 
 .btns__input {
@@ -46,6 +57,14 @@
     font-size: 16px;
 }
 
+.main__card-container {
+    display: flex;
+    height: 600px;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
 .main__card {
     margin: 0 auto;
     display: flex;
@@ -53,7 +72,7 @@
     justify-content: center;
     align-items: center;
     height: 500px;
-    width: 700px;
+    max-width: 700px;
 }
 
 .card__title {
@@ -89,11 +108,35 @@
 }
 
 .card__item__submit {
-    width: 180px;
     font-size: 26px;
     padding: 10px 25px;
     background-color: #F40612;
     color: #FFF;
     border: none;
     border-radius: 1px;
+}
+
+.cards-container {
+    color: #FFF;
+    width: 100%;
+    padding: 50px;
+    border-bottom: 10px solid #222222;
+}
+
+.tv-card {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.item-text__title {
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.item-text__text {
+    font-size: 26px;
 }
