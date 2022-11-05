@@ -35,14 +35,14 @@
         padding: 10px 15px;
     }
 
-    .tv-card {
+    .card {
         padding: 20px;
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
     }
 
-    .tv-card__item-text {
+    .card__item-text {
         text-align: center;
     }
 
