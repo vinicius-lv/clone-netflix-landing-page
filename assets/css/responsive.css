@@ -46,5 +46,9 @@
         text-align: center;
     }
 
+    .card__content {
+        max-width: 500px;
+    }
+
    
 }

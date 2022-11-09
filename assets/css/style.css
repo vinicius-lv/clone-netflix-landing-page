@@ -140,3 +140,47 @@ body {
 .item-text__text {
     font-size: 26px;
 }
+
+.faq {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.faq__card {
+    margin-bottom: 10px;   
+}
+
+
+.faq__title {
+    text-align: center;
+    margin: 30px 0;
+}
+
+.faq__title h1 {
+    font-size: 50px;
+}
+
+.card__content {
+    display: flex;
+    justify-content: space-between;
+    background-color: #303030;
+    width: 815px;
+    padding: 20px;
+    margin-bottom: 1px;
+    cursor: pointer;
+}
+
+.content__sbl-more {
+    font-size: 30px;
+}
+
+.faq__more {
+    background-color: #303030;
+    width: 815px;
+    padding: 30px;
+    font-size: 26px;
+    text-align: justify;
+    display: none;
+}
